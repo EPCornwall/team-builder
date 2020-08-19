@@ -7,7 +7,7 @@ display:flex;
 
 export default function Team(props){
     return(
-    <Wrapper>
+    <Wrapper key={props.id}>
         <div className="wrapper">
             <h3>Name: {props.name}</h3>
             <p>Email: {props.email}</p>
